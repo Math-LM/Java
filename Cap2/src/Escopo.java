@@ -23,7 +23,7 @@ public class Escopo {
 			System.out.println("Pode dirigir!");
 		} else {
 			System.out.println("Não possui idade suficiente para"
-					+ " poder dirigir. Seu pai " + nomePai + " pode ser preso.");
+					+ " poder dirigir. Seu pai, " + nomePai + ",pode ser preso.");
 		}
 		
 		
