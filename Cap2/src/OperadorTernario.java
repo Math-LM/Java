@@ -10,7 +10,8 @@ public class OperadorTernario {
 		
 		//                    booleana        valor caso verdadeiro         valor caso falto
 		String indicacao = (idade>=18)    ?          "adulto"        :     "criança/adolecente";
-		String indicacao2 = (idade>=18) ? "adulto" : (idade <= 12 ? "criança" : "adolecente");// Pode ser feito das duas formas.
+		String indicacao2 = (idade>=18)   ?          "adulto"        : (idade <= 12 ? "criança" : "adolecente");
+		// Pode ser feito das duas formas.
 		
 		
 		

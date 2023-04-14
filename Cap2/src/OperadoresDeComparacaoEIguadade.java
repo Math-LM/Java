@@ -7,21 +7,21 @@ public class OperadoresDeComparacaoEIguadade {
 		
 		int a = 10;
 		int b = 5;
-		int c = 3;
+		int c = 20;
 		
 		Boolean maior = b > a;
 		Boolean maiorOuIgual = b >= a;
 		Boolean menor = a < b;
 		Boolean menorOuIgual = a <= 10;
-		Boolean igual = a ==b - c;
+		Boolean igual = a == (c - a);
 		Boolean diferente = a!=c;
 		
-		System.out.println(maior);
-		System.out.println(maiorOuIgual);
-		System.out.println(menor);
-		System.out.println(menorOuIgual);
-		System.out.println(igual);
-		System.out.println(diferente);
+		System.out.println("Maior: "+maior);
+		System.out.println("Maior ou igual: "+maiorOuIgual);
+		System.out.println("menor: "+menor);
+		System.out.println("Menor ou igual: "+menorOuIgual);
+		System.out.println("igual: "+ igual);
+		System.out.println("Diferente: "+diferente);
 		
 		System.out.println("-----------------------------");
 		

@@ -6,9 +6,10 @@ public class IncrementoDecremento {
 		
 		int idade = 10; 
 		
-		int novaIdade = idade;
-		novaIdade--;
-		--novaIdade;
+		int novaIdade = ++idade;
+		
+		++novaIdade;
+		
 		System.out.println("Nova idade: " + novaIdade);
 		
 		

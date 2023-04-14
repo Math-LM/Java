@@ -4,18 +4,17 @@ public class EstruturaWhile {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner (System.in);
 		
-		System.out.print("Digite o numero inicial: ");
-		int numeroInicial = scanner.nextInt();
 		
-		System.out.print("Digite o numero final: ");
-		int numeroFinal = scanner.nextInt();
+		int numeroInicial = 5;
 		
-		int numeroAtual = numeroInicial;
+		
+		int numeroFinal = 10;
+		
 		
 		//         1      <=      5
-		while(numeroAtual <= numeroFinal) {
-			System.out.println(numeroAtual);
-			numeroAtual++;
+		while(numeroInicial <= numeroFinal) {
+			System.out.println(numeroInicial);
+			++numeroInicial;
 		}
 	}
 

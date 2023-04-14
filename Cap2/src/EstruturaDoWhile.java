@@ -12,7 +12,10 @@ public class EstruturaDoWhile {
 			valor = scanner.nextInt();
 			
 			soma += valor;
+			
+			System.out.println(" ");
 			System.out.println("Soma: " + soma);
+			
 		}while(valor !=0);
 		
 	}
