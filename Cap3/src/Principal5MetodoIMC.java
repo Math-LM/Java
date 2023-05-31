@@ -6,7 +6,7 @@ public class Principal5MetodoIMC {
 		p.altura = 1.65;
 		
 		IMC imc = p.calcularIndiceDeMAssaCorpora();
-		
+		/*O método está retornando um obj */
 		System.out.println("Abaixo do peso ideal: " + imc.abaixoDoPesoIdeal);
 		System.out.println("Peso ideal: " + imc.pesoIdeal);
 		System.out.println("Obeso: " + imc.obeso);

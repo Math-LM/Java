@@ -7,6 +7,9 @@ public class Wrapper {
 		int x =5; 
 		Integer i = new Integer (5);
 		
+		
+		System.out.println(i);
+		
 		byte y = i.byteValue();
 	//	xxxValue();
 		

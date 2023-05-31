@@ -1,6 +1,7 @@
 
 public class Principal2 {
 	public static void main(String[] args) {
+		
 		Proprietario dono1 = new Proprietario();
 		dono1.nome = "MAtheus";
 		dono1.cpf = "1231231312312";
