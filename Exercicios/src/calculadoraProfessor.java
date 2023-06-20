@@ -4,17 +4,17 @@ public class calculadoraProfessor {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner (System.in);
 		
-		System.out.print("Informe o raio do circulo: ");
-		Double raio = scanner.nextDouble();
+		System.out.print("Raio do quadrado: ");
+		double raio = scanner.nextDouble();
+		
+		double pi = 3.14;
+		
+		double area = (raio * raio) * pi;
+		
+		int areaCirculo = (int)area;
 				
-		Double pi = 3.14;
-		
-		double calculoAreaDoCirculo = (raio * raio) * pi;
-		
-		Integer clculoSemAreaDecimal = (int)calculoAreaDoCirculo;
-		
-		System.out.println("Área de um círculo a partir do raio: " + calculoAreaDoCirculo);
-		System.out.println("Área de um círculo a partir do raio: " + clculoSemAreaDecimal);
+		System.out.println("Resultado: " + area);
+		System.out.println("Resultado sem casas decimais: " + areaCirculo);
 		
 	}
 

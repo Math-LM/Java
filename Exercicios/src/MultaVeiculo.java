@@ -4,21 +4,24 @@ public class MultaVeiculo {
 	public static void main(String[] args) {
 		Scanner scanner= new Scanner(System.in);
 		
-		System.out.print("Tipo de veiculo (1 para 'caminhao' e 2 para 'passeio'): ");
-		char tipoVeiculo = scanner.nextShort() == 1? 'C' : 'P';
+		System.out.print("Tipo do veículo. Se for um veículo de passeio"
++" digite '1', e se for um caminha digite '2': ");		
+		char tipoVeiculo = scanner.nextShort() == 1? 'p' :'m';
 		
-		System.out.print("Velocidade Máxima permitida: ");
-		Integer velocidadeMaxima = scanner.nextInt();
+		System.out.print("Velocidade permitida na via: ");
+		double velocidade = scanner.nextDouble();
 		
-		System.out.print("Velocidade do Veículo: ");
-		Integer velocidadeVeiculo = scanner.nextInt();
+		System.out.println("Velocidade do veículo: ");
+		double velocidadeVeiculo = scanner.nextDouble();
 		
-		if((tipoVeiculo == 'C' && velocidadeVeiculo > velocidadeMaxima *1.05) 
-				|| (tipoVeiculo == 'P' && velocidadeVeiculo > velocidadeMaxima *1.1 )){
-			System.out.println("O seu veiculo foi multado.");
+		if((tipoVeiculo == 'p' && velocidadeVeiculo > velocidade *1.1)
+				|| (tipoVeiculo =='m' && velocidadeVeiculo > velocidade *1.05)) {
+			System.out.println("Multado!");
 		}else {
-			System.out.println("Está funcionando bem!");
+			System.out.println("Este veículo não deve ser multado.");
 		}
+		
+		
 	}
 
 }
